@@ -6,7 +6,7 @@ library(purrr)
 library(igraph)
 
 ### set working directory to root path "GLRP_BRCAness"
-setwd("~/Downloads/BRCAness_project/Publication/GIT/GLRP_BRCAness")  
+setwd("~/Downloads/BRCAness_project/Publication/GIT/brcaness_glrp_deciphering-main")  
 UCSCTCGA_HRD_file <- "./data/TCGA.HRD_withSampleID.txt.gz"
 Clinical_file <- "./data/Survival_SupplementalTable_S1_20171025_xena_sp"
 UCSCMutation_M3C_file <- "./data/mc3.v0.2.8.PUBLIC.xena.gz"

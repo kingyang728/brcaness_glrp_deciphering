@@ -27,11 +27,11 @@ RUN pip install matplotlib
 3. **Build Docker Image**: Build and run the Docker container for GLRP analysis:
     ```bash
     docker build -t brcaness_image .
-    docker run -v /path/to/GLRP_BRCAness:/GLRP_BRCAness --gpus device=<GPU_ID> -it brcaness_image bash
+    docker run -v /path/to/brcaness_glrp_deciphering-main:/brcaness_glrp_deciphering-main --gpus device=<GPU_ID> -it brcaness_image bash
     ```
-    Navigate to the `GLRP_BRCAness` directory and run the analysis:
+    Navigate to the `brcaness_glrp_deciphering-main` directory and run the analysis:
     ```bash
-    cd GLRP_BRCAness/
+    cd brcaness_glrp_deciphering-main/
     python run_glrp_ge_data_record_relevances.py
     ```
 4. **Post-Processing**: After generating GLRP results in the `results` folder, execute:

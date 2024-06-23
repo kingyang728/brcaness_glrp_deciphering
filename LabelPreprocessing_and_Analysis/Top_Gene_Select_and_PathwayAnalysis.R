@@ -6,7 +6,7 @@ library("KEGGREST")
 library(clusterProfiler)
 library(ReactomePA)
 
-setwd("~/Downloads/BRCAness_project/Publication/GIT/GLRP_BRCAness")
+setwd("~/Downloads/BRCAness_project/Publication/GIT/brcaness_glrp_deciphering-main")
 
 LRP_result_path <- "./results"
 TCGA_GCNNInput_path <- "./Data_EXP_LRPData/TCGA_BRCA"
